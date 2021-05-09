@@ -82,7 +82,7 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🔥 Add Neko to your group 🔥",
+            text="🔥 Add Neko To Your Group 🔥",
             url="t.me/NekoPro_Robot?startgroup=true",
         ),
     ],
@@ -422,7 +422,7 @@ def LEGEND_about_callback(update, context):
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
             f"\n\nBased on [GirlFriend Bot](https://t.me/GirlFriend_Robot)."
             f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @SecretBoy_xd."
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @uddles_of_pandas.",
+            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @cuddles_of_pandas.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
