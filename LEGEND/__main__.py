@@ -65,7 +65,7 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """                   
-Hello there, I'm [NEKO](https://telegra.ph/file/66470571989814b254858.jpg)
+Hello there, I'm [NEKO](https://telegra.ph/file/50d951d7afa301126e8b4.jpg)
 I am an anime Themed Group Managing Bot and I will help in managing your group\n
 
 ✪ Make sure you read *INFO* Section Below ✪ \n
