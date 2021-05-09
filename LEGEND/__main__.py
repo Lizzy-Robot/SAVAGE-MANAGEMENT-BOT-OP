@@ -65,12 +65,12 @@ from LEGEND.modules.helper_funcs.misc import paginate_modules
 from LEGEND.modules.helper_funcs.readable_time import get_readable_time
 
 PM_START_TEXT = """                   
-Hello there, I'm [𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓](https://telegra.ph/file/581295fcf392bb13dd0d6.jpg)
+Hello there, I'm [NEKO](https://telegra.ph/file/66470571989814b254858.jpg)
 I am an anime Themed Group Managing Bot and I will help in managing your group\n
 
 ✪ Make sure you read *INFO* Section Below ✪ \n
 
-𝐌𝐘 𝐆𝐎𝐃 - [丂卂爪乇乇尺](t.me/SAMEER_795)
+𝐌𝐘 𝐆𝐎𝐃 - [DΣVIᄂ ӨP](t.me/SecretBoy_xd)
 """
               
 buttons = [
@@ -82,15 +82,15 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="💫 Add SAVAGE BOT to your group 💫",
-            url="t.me/SAVAGE_MANAGER_BOT?startgroup=true",
+            text="🔥 Add Neko to your group 🔥",
+            url="t.me/NekoPro_Robot?startgroup=true",
         ),
     ],
 ]
 
 
 HELP_STRINGS = f"""
-*Main Commands :* [SAVAGE BOT](https://telegra.ph/file/177228bdfd09ae95d34a6.jpg)
+*Main Commands :* 
 ✪ /start: Starts me! You've probably already used this.
 ✪ /help: Click this, I'll let you know about myself!
 ✪ /donate: You can support my creater using this command.
@@ -105,7 +105,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/SAVAGE_MANAGEMENT_BOT,[SAMEER](t.me/SAMEER_795),"""
+Support them  [N](t.me/NekoPro_Robot,[UnknownBoy](https://t.me/SecretBoy_xd)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -225,7 +225,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            "I'm Already Online!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -361,10 +361,10 @@ def LEGEND_about_callback(update, context):
     query = update.callback_query
     if query.data == "aboutmanu_":
         query.message.edit_text(
-            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You I'm a next generational group management bot developed by @SAMEER_795.* "
-            f"\n\n 🔥 Join [SUPPORT GROUP](https://t.me/SAVAGE_MANAGEMENT_BOT) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
+            text=f"*😍 Hi again!  The name's {dispatcher.bot.first_name} 😍 \n\nAs  You Know  I'm a next generational group management bot developed by @SecretBoy_xd.* "
+            f"\n\n 🔥 Join [SUPPORT GROUP](https://t.me/cuddles_of_pandas) To Keep Yourself Updated About {dispatcher.bot.first_name} 🔥"
             f"\n\n I have the normal GROUP MANAGING functions like flood control, a warning system etc but I mainly have the advanced and handy Antispam system and the SIBYL banning system which safegaurds and helps your group from spammers."
-            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features [:)](https://telegra.ph/file/177228bdfd09ae95d34a6.jpg)"
+            f"\n\nI Can Manage Your Groups Smoothly, With Some Special Features "
             f"\n\n👇 You Can Know More About Me By Clicking The Below Buttons 👇",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -399,7 +399,7 @@ def LEGEND_about_callback(update, context):
         query.message.edit_text(
             text=f"* ｢ BASIC HELP 」*"
             f"\nIf You Can Also Add {dispatcher.bot.first_name} To Your Chats By Clicking [Here](http://t.me/{dispatcher.bot.username}?startgroup=true) And Selecting Chat. \n"
-            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/savage_management_bot).\n"
+            f"\n\nYou Can get support {dispatcher.bot.first_name} by joining [support](https://t.me/cuddles_of_pandas).\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -420,9 +420,9 @@ def LEGEND_about_callback(update, context):
     elif query.data == "aboutmanu_credit":
         query.message.edit_text(
             text=f"*{dispatcher.bot.first_name} Is the redisigned version of Daisy and Naruto for the best performance.*"
-            f"\n\nBased on [SAVAGE BOT](https://github.com/Sameerpanthi/SAVAGE-IS-BACK)."
-            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @LEGENDX22 and @PROBOYX"
-            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @savage_management_bot.",
+            f"\n\nBased on [GirlFriend Bot](https://t.me/GirlFriend_Robot)."
+            f"\n\n{dispatcher.bot.first_name}'s source code was rewritten by @SecretBoy_xd."
+            f"\n\nIf Any Question About {dispatcher.bot.first_name}, \nLet Us Know At @uddles_of_pandas.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -478,13 +478,13 @@ def LEGEND_about_callback(update, context):
             text=f"<b> ｢ Terms and Conditions 」</b>\n"
             f"\n<i>To Use This Bot, You Need To Read Terms and Conditions Carefully.</i>\n"
             f"\n✪ We always respect your privacy \n  We never log into bot's api and spying on you \n  We use a encripted database \n  Bot will automatically stops if someone logged in with api."
-            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @SAMEER_795 spending many sleepless nights.. So, Respect it."
+            f"\n✪ Always try to keep credits, so \n  This hardwork is done by @SecretBoy_xd spending many sleepless nights.. So, Respect it."
             f"\n✪ Some modules in this bot is owned by different authors, So, \n  All credits goes to them \n  Also for <b>Paul Larson for Marie</b>."
-            f"\n✪ If you need to ask anything about \n  this bot, Go @SAVAGE_MANAGEMENT_BOT."
+            f"\n✪ If you need to ask anything about \n  this bot, Go @cuddles_of_pandas"
             f"\n✪ If you asking nonsense in Support \n  Chat, you will get warned/banned."
             f"\n✪ All api's we used owned by originnal authors \n  Some api's we use Free version \n  Please don't overuse AI Chat."
-            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of SAVAGE Bot we are not resposible for anything."
-            f"\n\nFor any kind of help, related to this bot, Join @SAVAGE_MANAGEMENT_BOT."
+            f"\n✪ We don't Provide any support to forks,\n  So these terms and conditions not applied to forks \n  If you are using a fork of Neko Bot We Are Not Responsible For That."
+            f"\n\nFor any kind of help, related to this bot, Join @cuddles_of_pandas."
             f"\n\n<i>Terms & Conditions will be changed anytime</i>\n",
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
@@ -540,7 +540,7 @@ def get_help(update, context):
                     [
                         InlineKeyboardButton(
                             text="Support Chat",
-                            url="https://t.me/SAVAGE_MANAGEMENT_BOT".format(SUPPORT_CHAT),
+                            url="https://t.me/cuddles_of_pandas".format(SUPPORT_CHAT),
                         )
                     ],
                 ]
