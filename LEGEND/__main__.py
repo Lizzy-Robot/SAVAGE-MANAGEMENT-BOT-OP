@@ -70,7 +70,7 @@ I am an anime Themed Group Managing Bot and I will help in managing your group\n
 
 ✪ Make sure you read *INFO* Section Below ✪ \n
 
-𝐌𝐘 𝐆𝐎𝐃 - [DΣVIᄂ ӨP](t.me/SecretBoy_xd)
+𝐌𝐘 𝐆𝐎𝐃 - [DΣVIᄂ ӨP](t.me/Mr_Unknown_Boi)
 """
               
 buttons = [
@@ -105,7 +105,7 @@ HELP_STRINGS = f"""
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 You can donate to the original writer's of the Base code,
-Support them  [N](t.me/NekoPro_Robot,[UnknownBoy](https://t.me/SecretBoy_xd)."""
+Support them  [N](t.me/NekoPro_Robot,[UnknownBoy](https://t.me/Mr_Unknown_Boi)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
